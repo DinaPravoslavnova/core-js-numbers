@@ -457,8 +457,9 @@ function isNumber(number) {
  * 5.1  => false
  * '5'  => false
  */
-function isInteger(/* number */) {
-  throw new Error('Not implemented');
+function isInteger(number) {
+  const resultIsInteger = Number.isInteger(number);
+  return resultIsInteger;
 }
 
 /**
