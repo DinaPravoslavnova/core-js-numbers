@@ -603,8 +603,9 @@ function getSumOfNumbers(x1, x2, x3) {
  * -5, -6 => -5
  * 0, 5   => 5
  */
-function getMaxNumber(/* firstNumber, secondNumber */) {
-  throw new Error('Not implemented');
+function getMaxNumber(firstNumber, secondNumber) {
+  const resultMaxNumber = Math.max(firstNumber, secondNumber);
+  return resultMaxNumber;
 }
 
 /**
